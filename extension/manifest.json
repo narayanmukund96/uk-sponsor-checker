@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "UK Sponsor Checker",
   "description": "Check selected company text against a local copy of the UK Register of Licensed Sponsors.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "permissions": [
     "activeTab",
     "contextMenus",
