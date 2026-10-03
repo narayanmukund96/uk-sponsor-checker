@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "UK Sponsor Checker",
+  "description": "Check selected company text against a local copy of the UK Register of Licensed Sponsors.",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "action": {
+    "default_title": "UK Sponsor Checker"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

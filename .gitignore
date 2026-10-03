@@ -1,0 +1,50 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local project guidance and unpublished internal documentation
+AGENTS.md
+docs/00_README.md
+docs/07_PRIVACY_POLICY_DRAFT.md
+docs/09_DECISION_LOG.md
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Locally generated and historical sponsor datasets
+data/processed/
+data/raw/sponsor-register-*.csv
+
+# Generated release and build artefacts
+build/
+dist/
+out/
+*.zip
+*.crx
+*.pem

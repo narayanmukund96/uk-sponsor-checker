@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "errors": [],
+  "info": [],
+  "rawRowCount": 142926,
+  "warnings": [
+    "Town/City is blank for 1 row(s).",
+    "County is blank for 94761 row(s)."
+  ]
+}

@@ -1,0 +1,171 @@
+#uk-sponsor-checker-card.uksc-card {
+  position: fixed;
+  z-index: 2147483647;
+  right: 18px;
+  bottom: 18px;
+  width: min(420px, calc(100vw - 32px));
+  max-height: min(680px, calc(100vh - 32px));
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #bcc7d6;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #172033;
+  box-shadow: 0 18px 44px rgba(16, 24, 40, 0.22);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#uk-sponsor-checker-card.uksc-state-exact {
+  border-color: #2f9461;
+  background: #f2fbf6;
+}
+
+#uk-sponsor-checker-card.uksc-state-probable {
+  border-color: #2f6fbb;
+  background: #f2f7ff;
+}
+
+#uk-sponsor-checker-card.uksc-state-ambiguous {
+  border-color: #b7791f;
+  background: #fff8e8;
+}
+
+#uk-sponsor-checker-card.uksc-state-not_found {
+  border-color: #c2413b;
+  background: #fff4f2;
+}
+
+#uk-sponsor-checker-card.uksc-state-error {
+  border-color: #8a96a8;
+  background: #f6f7f9;
+}
+
+#uk-sponsor-checker-card * {
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+#uk-sponsor-checker-card .uksc-header {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#uk-sponsor-checker-card h2,
+#uk-sponsor-checker-card h3,
+#uk-sponsor-checker-card p {
+  margin: 0;
+}
+
+#uk-sponsor-checker-card h2 {
+  color: #172033;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+#uk-sponsor-checker-card.uksc-state-exact h2 {
+  color: #17633f;
+}
+
+#uk-sponsor-checker-card.uksc-state-probable h2 {
+  color: #1f5f9f;
+}
+
+#uk-sponsor-checker-card.uksc-state-ambiguous h2 {
+  color: #80540f;
+}
+
+#uk-sponsor-checker-card.uksc-state-not_found h2 {
+  color: #9f2f2b;
+}
+
+#uk-sponsor-checker-card.uksc-state-error h2 {
+  color: #4e5a6a;
+}
+
+#uk-sponsor-checker-card h3 {
+  color: #172033;
+  font-size: 15px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+#uk-sponsor-checker-card .uksc-eyebrow {
+  margin-bottom: 4px;
+  color: #56657a;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#uk-sponsor-checker-card .uksc-close {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  border: 1px solid #c8d1dc;
+  border-radius: 6px;
+  background: #f6f8fb;
+  color: #172033;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+}
+
+#uk-sponsor-checker-card .uksc-selected,
+#uk-sponsor-checker-card .uksc-body,
+#uk-sponsor-checker-card .uksc-source,
+#uk-sponsor-checker-card .uksc-disclaimer {
+  margin-top: 12px;
+}
+
+#uk-sponsor-checker-card .uksc-selected {
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #f6f8fb;
+  color: #36465d;
+  overflow-wrap: anywhere;
+}
+
+#uk-sponsor-checker-card .uksc-candidates {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+#uk-sponsor-checker-card .uksc-candidate {
+  padding: 10px;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+#uk-sponsor-checker-card .uksc-meta,
+#uk-sponsor-checker-card .uksc-score {
+  margin-top: 6px;
+  color: #36465d;
+  overflow-wrap: anywhere;
+}
+
+#uk-sponsor-checker-card .uksc-source,
+#uk-sponsor-checker-card .uksc-disclaimer {
+  color: #56657a;
+  font-size: 12px;
+}
+
+#uk-sponsor-checker-card .uksc-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #135ea8;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#uk-sponsor-checker-card .uksc-close:focus,
+#uk-sponsor-checker-card .uksc-link:focus {
+  outline: 3px solid #7ab7ff;
+  outline-offset: 2px;
+}

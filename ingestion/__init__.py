@@ -1,0 +1,2 @@
+"""Sponsor register ingestion package."""
+

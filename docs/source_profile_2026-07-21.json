@@ -1,0 +1,48 @@
+{
+  "source_file": "SP_-_Worker_and_Temporary_Worker_Web_Register_-_2026-07-21.csv",
+  "rows": 142534,
+  "columns": [
+    "Organisation Name",
+    "Town/City",
+    "County",
+    "Type & Rating",
+    "Route"
+  ],
+  "missing_values": {
+    "Organisation Name": 0,
+    "Town/City": 2,
+    "County": 94505,
+    "Type & Rating": 0,
+    "Route": 0
+  },
+  "unique_routes": [
+    "Charity Worker",
+    "Creative Worker",
+    "Global Business Mobility: Graduate Trainee",
+    "Global Business Mobility: Secondment Worker",
+    "Global Business Mobility: Senior or Specialist Worker",
+    "Global Business Mobility: Service Supplier",
+    "Global Business Mobility: UK Expansion Worker",
+    "Government Authorised Exchange",
+    "International Agreement",
+    "International Sportsperson",
+    "Intra Company Transfers (ICT)",
+    "Intra-company Routes",
+    "Religious Worker",
+    "Scale-up",
+    "Seasonal Worker",
+    "Skilled Worker",
+    "Tier 2 Ministers of Religion"
+  ],
+  "unique_type_and_rating": [
+    "Temporary Worker (A (Premium))",
+    "Temporary Worker (A (SME+))",
+    "Temporary Worker (A rating)",
+    "Temporary Worker (B rating)",
+    "Worker (A (Premium))",
+    "Worker (A (SME+))",
+    "Worker (A rating)",
+    "Worker (B rating)",
+    "Worker (UK Expansion Worker: Provisional )"
+  ]
+}
